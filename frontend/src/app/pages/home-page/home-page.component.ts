@@ -57,6 +57,7 @@ export class HomePageComponent implements OnInit {
         lastName: result.userData.family_name
       };
 
+      console.log(product);
       if(!quantity) {
         this.orderFailed = true;
         this.orderSuccess = false;
